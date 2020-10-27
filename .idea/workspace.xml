@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f60a69dd-3e70-4cdb-ae2b-ed4d4cdd543a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdamEva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdamEva.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CongTacBongDen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CongTacBongDen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameDiChuyenDoiTuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameDiChuyenDoiTuong.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnTap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDiChuyenDoiTuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameDiChuyenDoiTuong.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,28 @@
       <workItem from="1603177198527" duration="8187000" />
       <workItem from="1603250012528" duration="700000" />
       <workItem from="1603251212764" duration="2188000" />
-      <workItem from="1603267177950" duration="2543000" />
+      <workItem from="1603267177950" duration="3482000" />
+      <workItem from="1603290572419" duration="721000" />
+      <workItem from="1603330307054" duration="3384000" />
+      <workItem from="1603349008707" duration="1469000" />
+      <workItem from="1603434993780" duration="5575000" />
+      <workItem from="1603629079512" duration="59000" />
+      <workItem from="1603635942908" duration="60000" />
+      <workItem from="1603680148524" duration="7923000" />
+      <workItem from="1603693917609" duration="1782000" />
+      <workItem from="1603695743205" duration="1779000" />
+      <workItem from="1603697562610" duration="1682000" />
+      <workItem from="1603699426743" duration="865000" />
+      <workItem from="1603701266623" duration="1209000" />
+      <workItem from="1603703150632" duration="594000" />
+      <workItem from="1603705136491" duration="217000" />
+      <workItem from="1603763274065" duration="1017000" />
+      <workItem from="1603765095772" duration="3000" />
+      <workItem from="1603770142763" duration="1823000" />
+      <workItem from="1603772017538" duration="1841000" />
+      <workItem from="1603773884232" duration="644000" />
+      <workItem from="1603780234148" duration="1766000" />
+      <workItem from="1603786182438" duration="940000" />
     </task>
     <servers />
   </component>
@@ -91,15 +112,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603250984885">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603629137591">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603250984885" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603184284561">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603629137591" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603440838164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603184284561" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603440838164" />
   </component>
 </project>

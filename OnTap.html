@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //  let N =+ prompt(" nhap 3 so nguyen ");
+    //  function tong(N){
+    //      let a =parseInt(N/100);
+    //      let b =parseInt((N%100)/10);
+    //      let c =parseInt((N%100)%10);
+    //      return( a+b+c)
+    //  }
+    // document.write(tong(N));
+
+
+
+
+
+
+
+    // let x = +prompt(" nhap gia tri cua X ")
+    // if (x == 100) {
+    //     alert(" gia tri cua x la 100");
+    // } else if (x != 100) {
+    //     alert(" gia tri cua x khac 100");
+    // }
+    //
+    //
+
+
+
+
+
+
+
+    //
+    // let arr = [];
+    // for (let i = 0; i < 4; i++) {
+    //     let x = +prompt(" nhap gia tri thu " + i);
+    //     arr.push(x);
+    // }
+    // document.write(arr + "<br>");
+    // let max = arr[0];
+    //
+    // function checkMax() {
+    //     for (let i = 0; i < arr.length; i++) {
+    //         if (max < arr[i]) {
+    //             max = arr [i];
+    //         }
+    //     }
+    //     return max;
+    // }
+    //
+    // document.write("gia tri lon nhat la :" + checkMax() + "<br>");
+    // let min = arr[0];
+    //
+    // function checkMin() {
+    //     for (let i = 0; i < arr.length; i++) {
+    //         if (min > arr[i]) {
+    //             min = arr[i];
+    //         }
+    //     }
+    //     return min;
+    // }
+    //
+    // document.write("gia tri nho nhat la :" + checkMin() + "<br>");
+    //
+    // function Number() {
+    //     for (let i = 0; i < arr.length; i++) {
+    //         if (arr[i] != min && arr[i] != max) {
+    //             document.write("so giua la :" + arr[i] + ",");
+    //         }
+    //
+    //     }
+    // }
+    //
+    // Number();
+
+
+
+
+
+
+
+
+    // let Km = +prompt(" nhap so km");
+    // let tong = 0;
+    // if (Km < 0) {
+    //     alert("Vui long nhap so km hop le!")
+    // } else if (Km == 0) {
+    //     alert("So tien ban phai tra la 0VND")
+    // } else if (Km <= 1) {
+    //     alert(" so tien ban phai tra la 15000")
+    // } else if (km => 2 && km <= 5) {
+    //     tong = 15000 + 13500 * (Km - 1);
+    //     alert(" so tien phai tra " + tong);
+    // } else if (Km > 5 && Km <= 120) {
+    //     tong = 15000 + 13500 * 4 + 11000 * (Km - 5);
+    //     alert("so tien ban phai tra la : " + tong);
+    // } else if (Km > 120) {
+    //     tong = (15000 + 13500 * 4 + 11000 * (Km - 5)) * 0.9;
+    //     alert(" so tien phai tra la :" + tong)
+    // }
+
+
+
+
+
+
+
+    // let a = +prompt(" nhap HO VA TEN :");
+    // let b = +prompt(" nhap diem TOAN ");
+    // let c = +prompt(" nhap diem LY");
+    // let d = +prompt(" nhap diem HOA");
+    // let e = (b + c + d) / 3;
+    // if (e > 9) {
+    //     alert(" dat danh hieu xuat sac");
+    // } else if (e >= 8 && e < 9) {
+    //     alert(" dat danh hieu hoc sinh gioi");
+    // } else if (e < 8 && e >= 6.5) {
+    //     alert(" dat danh hieu hoc sinh kha");
+    // } else if (e < 6.5 && e >= 5) {
+    //     alert("trung binh");
+    // } else if (e < 5 && e >= 3.5) {
+    //     alert(" yeu");
+    // } else {
+    //     alert("kem");
+    // }
+
+
+
+
+
+
+
+    // let arr = [];
+    // for (let i = 0; i <3; i++) {
+    //     let x = +prompt(" nhap gia tri so :" + i);
+    //     arr.push(x);
+    // }
+    // let sum =0 ;
+    // function tong(arr) {
+    //     for (let i = 0; i < arr.length; i++) {
+    //         if (arr[i] >= 0) {
+    //             sum += arr[i];
+    //         }
+    //     }
+    //     return sum;
+    // }
+    //
+    // document.write(tong(arr));
+
+
+
+
+
+    // let a = [1, 2, 3];
+    // let b = [4, 5, 6];
+    // let c = [];
+    // let d = a[0] + b[0];
+    // c.push(d);
+    // let e = a[1] + b[1];
+    // c.push(e);
+    // let f = a[2] + b[2];
+    // c.push(f);
+    // document.write(c);
+
+
+
+
+
+
+
+    let arr1 = [1, 2, 3,9,5,8];
+    let arr2 = [4, 0, 6,3,4,7];
+
+    function check(arr1 , arr2) {
+        for (let i = arr1.length; i>0; i--) {
+            for (let j= arr2.length; j>0 ; j--) {
+                if (arr1[i] == arr2[j]) {
+                    arr1.splice(i,1);
+                    arr2.splice( j,1);
+                }
+
+            }
+
+        }
+        document.write(arr1 + "<br>"+ arr2);
+    }
+    check(arr1,arr2);
+
+</script>
+</body>
+</html>
